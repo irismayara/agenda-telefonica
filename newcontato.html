@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Your Contacts - Cadastro</title>
+</head>
+<body id="landing-page">
+    <header>
+        <img src="assets/images/icons/logo-temp.png" alt="Logo">
+        <nav>
+            <a href="home.html">
+                <h3>YOUR CONTACTS</h3>
+            </a>
+            <a href="logout.php">
+                <img src="assets/images/icons/logout-img.png" alt="sair">
+            </a>
+        </nav>
+    </header>
+    <main>
+        <container class="form">
+            <div class="title">
+                <h1> Novo Contato </h1>
+            </div>
+
+            <div class="info"> 
+            </div>
+    
+            <form method="POST" action="#">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="telefone" id="telefone">
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" id="endereco">
+
+                <label for="aniversario">Aniversário:</label>
+                <input type="date" name="aniversario" id="aniversario">
+
+                <label for="instagram">Instagram:</label>
+                <input type="text" name="instagram" id="instagram">
+
+                <button type="submit" name="adicionar">Adicionar</button>
+            </form>
+        </container>
+    </main>
+</body>

@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="assets/images/icons/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Your Contacts - Cadastro</title>
 </head>
-<body id="landing-page">
+<body>
     <header>
         <img src="assets/images/icons/logo-temp.png" alt="Logo">
         <h3>YOUR CONTACTS</h3>
     </header>
     <main>
-        <container class="form">
+        <section class="form">
             <div class="title">
                 <h1> Cadastro </h1>
             </div>
 
-            <div class="info"> 
+            <div class="info" hidden> 
             </div>
 
             <form method="POST" action="#">
@@ -43,7 +44,7 @@
                 <input type="password" name="senha" id="senha" required>
 
                 <label for="c_senha">Confirme a senha:</label>
-                <input type="password" name="c_senha" id="c_senha" required>
+                <input type="password" name="confirmacao_senha" id="confirmacao_senha" required>
 
                 <button type="submit" name="cadastrar">Cadastrar</button>
             </form>
@@ -51,6 +52,6 @@
             <div class="footer">
                 <a href="login.html">Já tem cadastro?</a>
             </div>
-        </container>
+        </section>
     </main>
 </body>

@@ -1,0 +1,58 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body main {
+    padding: 0;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+main section {
+    width: calc(100vw/2);
+    padding: 3rem;
+    text-align: center;
+}
+
+main section h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+main section p {
+    padding: 0 4rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+main section nav {
+    display: flex;
+    justify-content: center;
+} 
+
+main section nav a {
+margin: 3rem .5rem;
+width: 30%;
+height: 6rem;
+background-color: var(--color-text-complement);
+border: 0;
+border-radius: .5rem;
+color: var(--color-button-text);
+margin-top: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main section nav a:hover {
+    background-color: var(--color-text-base);
+    font-size: 1.8rem;
+}
+
+img {
+    width: 100%;
+}

@@ -1,2 +1,2 @@
-# projeto-agenda-php
+# agenda-telefonica
 Agenda telefônica desenvolvida em php 

@@ -80,13 +80,9 @@ body header {
     background-color: var(--color-text-complement);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem 5rem;
-}
-
-body header img {
-    width: 6rem;
-    height: 6rem;
+    justify-content: flex-end;
+    padding: 2rem 5rem;
+    height: 7rem;
 }
 
 body header nav {
@@ -113,7 +109,6 @@ body header nav a img:hover {
 
 body main {
     padding: 5rem 0;
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -145,7 +140,6 @@ body .form form {
     display: flex;
     flex-direction: column;
 }
-
 
 body .form .footer {
     display: flex;
